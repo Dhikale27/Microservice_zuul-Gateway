@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    CitizenService:
+      path: /citizen/**
+      url: http://localhost:8081
+
